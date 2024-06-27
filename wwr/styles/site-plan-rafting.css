@@ -1,0 +1,60 @@
+@import url('https://fonts.google.com/specimen/Oswald');
+@import url('https://fonts.google.com/specimen/Playwrite+AU+QLD');
+
+:root {
+    --primary-color: #0077B6; 
+    --secondary-color: #00B4D8;
+    --accent1-color: #90E0EF;
+    --accent2-color: white;
+
+    --heading-font: "Oswald", serif;
+    --paragraph-font: "Playwrite+AU+QLD", serif;
+
+    --nav-background-color: rgb(115, 221, 253);
+    --nav-link-color: #0077B6;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #0077B6;
+
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 20px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color)
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color)
+}
