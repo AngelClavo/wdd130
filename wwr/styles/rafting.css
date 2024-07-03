@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+:root {
+    --primary-color: #0077B6; 
+    --secondary-color: #00B4D8;
+    --accent1-color: #90E0EF;
+    --accent2-color: white;
+
+    --heading-font: "Oswald", serif;
+    --paragraph-font: "Playwrite+AU+QLD", serif;
+
+    --nav-background-color: rgb(115, 221, 253);
+    --nav-link-color: #0077B6;
+    --nav-hover-link-color: white;
+    --nav-hover-background-color: #0077B6;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header img {
+    width: auto
+}
