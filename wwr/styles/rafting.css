@@ -6,7 +6,7 @@
     --accent1-color: #90E0EF;
     --accent2-color: white;
 
-    --heading-font: "Oswald", serif;
+    --heading-font: Oswald, serif;
     --paragraph-font: "Playwrite+AU+QLD", serif;
 
     --nav-background-color: rgb(115, 221, 253);
@@ -26,4 +26,24 @@
     display: block;
     width: 100%;
     height: auto;   
+}
+
+header img {
+    width: 150px;
+    height: auto;
+    float: right;
+}
+
+footer img{
+    width: 50px;
+    height: auto;
+    float: left
+}
+
+header p {
+    position: absolute;
+    top: 65px;
+    background-color: #00B4D8;
+    font-family: var(--heading-font);
+
 }
