@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <link rel="stylesheet" href="styles/quiz.css">
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+    <title>Basic HTML and CSS Quiz</title>
+</head>
+<body>
+<header>
+    <h1>Basic HTML and CSS Quiz</h1>
+</header>
+<main>
+    <form>
+        <fieldset>
+            <legend>CSS Questions </legend>
+            <div class="form-item column2">
+                <label for="q1">What does the acronym CSS stand for? </label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="form-item column2">
+                <label for="q2">Name at least 3 specific uses of CSS: </label>
+                <textarea id="q2" name="q2" rows="4"></textarea>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>HTML Questions </legend>
+            <label for="q3">What does the acronym HTML mean? </label>
+            <div class="form-item column1">
+                <select id="q3" name="q3">
+                    <option value="" selected disabled>Choose One... </option>
+                    <option value="answer">Hypertext Markup Language</option>
+                    <option value="wrong1">Hyper Tension Mecha Language</option>
+                    <option value="wrong2">Helio Transmition Micro Long</option>
+                </select>
+            </div>
+            <div>
+                <label for="q4">How many !DOCTYPE can you put into a HTML work? </label>
+                <input type="number" id="q4" name="q4" min="1">
+            </div>
+        </fieldset>
+        <button type="submit">Submit Quiz</button>
+    </form>
+</main>
+</body>
